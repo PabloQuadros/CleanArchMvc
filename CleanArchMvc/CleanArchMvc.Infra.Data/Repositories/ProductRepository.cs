@@ -1,6 +1,7 @@
 ﻿using CleanArchMvc.Domain.Entities;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,7 +32,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
 
         public async Task<Product> GetProductCategoryAsync(int? id)
         {
-            //eager loading
+
             return await _productContext.Products.Include(c => c.Category)
                 .SingleOrDefaultAsync(p => p.Id == id);
         }
