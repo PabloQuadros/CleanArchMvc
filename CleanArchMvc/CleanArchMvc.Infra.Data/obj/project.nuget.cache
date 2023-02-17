@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5BXAUHKRcYuE6gbrhxkYfruVS4cQyTC5XSHeUYGYV0TMrAoBWUKE8fDU5j48D2oBASyhFe7qrdEfcUjaq4om3A==",
+  "dgSpecHash": "ZDCOAGzvdLsDDll01iPfPXda0DSFd4YQ/y8qLR/Ar9ho204yCzbAep8PA2Xcch0mGmHf5xFjBLmZopXncBYXpA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\curso_cleanarq\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
   "expectedPackageFiles": [
