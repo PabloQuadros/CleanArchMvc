@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Uhy8p0S3aLV5E83EfSMF6SxEO4GUkAvDZy0EBrLafO2i+vZrqPLv53+5tCEcubJR5ipYvHh3Bp/fK1L7PoD5VQ==",
+  "dgSpecHash": "cv+ZFbMsEE9GRjEVRgcFm56+mHdd+h1M2PVMnb5gqMbvktERZqqcCJ7tzw9CX+ZHu4Hcl6EkRh/IQGg/LQTJBA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\curso_cleanarq\\CleanArchMvc\\CleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.quadros\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
-    "C:\\Users\\pablo.quadros\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\mediatr\\12.0.0\\mediatr.12.0.0.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\mediatr.contracts\\2.0.0\\mediatr.contracts.2.0.0.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\pablo.quadros\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
