@@ -20,9 +20,18 @@ namespace CleanArchMvc.Infra.Data.Repositories
 
         public async Task<Category> Create(Category category)
         {
-            _categoryContext.Add(category);
-            await _categoryContext.SaveChangesAsync();
-            return category;
+            try
+            {
+
+                _categoryContext.Add(category);
+                await _categoryContext.SaveChangesAsync();
+                return category;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public async Task<Category> GetById(int? id)

@@ -8,7 +8,7 @@ namespace CleanArchMvc.Domain.Entities
 {
     public abstract class Entity
     {
-        public int? Id { get;protected set; }
+        public int Id { get;protected set; }
 
         //DateTime CreatedDate {get; set;}
         //DateTime? ModifiedDate { get; set;}
