@@ -1,5 +1,5 @@
 ﻿using CleanArchMvc.Domain.Account;
-using CleanArchMvc.WebUI.ViewModel;
+using CleanArchMvc.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArchMvc.WebUI.Controllers
@@ -64,7 +64,6 @@ namespace CleanArchMvc.WebUI.Controllers
                 return View(model);
             }
         }
-
 
 
         public async Task<IActionResult> Logout()
