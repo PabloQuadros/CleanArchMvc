@@ -13,7 +13,7 @@ namespace CleanArchMvc.WebUI.Controllers
         }
 
         [HttpGet]
-        public IActionResult Login(string returnUrl)
+        public IActionResult Login(string? returnUrl)
         {
             return View(new LoginViewModel()
             {
